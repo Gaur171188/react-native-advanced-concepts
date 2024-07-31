@@ -1,5 +1,13 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "The app accesses your photos to let you share them with your friends."
+        }
+      ]
+    ],
     "name": "react-native-advanced-concepts",
     "slug": "react-native-advanced-concepts",
     "version": "1.0.0",
@@ -24,14 +32,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "69ca147b-23ab-438c-9b7e-279383bb6dbd"
+        "projectId": "2f17e5d1-5e59-487e-9959-827e978f6d23"
       }
     }
   }
